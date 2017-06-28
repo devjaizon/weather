@@ -1,0 +1,142 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 0 0 3px black;
+}
+section {
+	height: 100%;
+	display: flex;
+	align-content: center;
+}
+#city-style {
+	text-align: center;
+	font-family: 'Fresca', sans-serif;
+}
+#country-style {
+	text-align: center;
+	font-family: 'Fresca', sans-serif;
+}
+.f-c {
+	text-align: center;
+	margin: 5px auto;
+}
+.container-fluid {
+	margin-top: 9.375%;
+	margin-bottom: 9.375%;
+	width: 90%;
+}
+.description {
+	width: 100%;
+	text-align: center;
+}
+#weather-description {
+	margin-bottom: -10px;
+	padding-top: 10px;
+}
+.description img {
+	margin: 0 0;
+	padding: 0 0;
+}
+i {
+	width: 200px;
+	height: 200px;
+}
+.container {
+
+	height: 100%;
+	background-color: rgba(255,255,255,0.2);
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+.wraper {
+	height: 90%;
+	margin: auto;
+	text-align: center;
+}
+p {
+	font-family: 'Athiti', sans-serif;
+	font-weight: 400;
+}
+#temp {
+	margin: 0 0;
+}
+#load {
+	background-color: rgba(0,0,0,0.3);
+	border: 0.5px white solid;
+	color: white;
+	text-shadow: 0 0 1px black;
+}
+/*Extra small devices (portrait phones, 320px and up)*/
+@media  (min-width: 320px) {
+	.description img {
+		width: 60px;
+		height: 60px;
+	}
+	#city-style {
+		font-size:2rem;
+		margin: 0 0;
+	}
+	#country-style {
+		font-size: 1.5rem;
+		margin: 0 0;
+	}
+	#load {
+		width: 75px;
+		height: 22.5px;
+	}
+	p {
+		font-size: 1rem;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media  (min-width: 576px) {
+	.description img {
+		width: 105px;
+		height: 105px;
+	}
+	#city-style {
+		font-size:2.5rem;
+		margin: 0 0;
+	}
+	#country-style {
+		font-size: 1.75rem;
+		margin: 0 0;
+	}
+	#load {
+		width: 87.5px;
+		height: 26.25px;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.description img {
+		width: 150px;
+		height: 150px;
+	}
+	#city-style {
+		font-size:3rem;
+		margin: 0 0;
+	}
+	#country-style {
+		font-size: 2rem;
+		margin: 0 0;
+	}
+	#load {
+		width: 100px;
+		height: 30px;
+	}
+	p {
+		font-size: 2rem;
+	}
+}
