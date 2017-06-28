@@ -21,9 +21,6 @@ function loadData() {
                         ts = '°F'
                     } else {
                         ts = '°C'
-                    }
-                    console.log(data.main.temp);
-
                     $('#city-style').text(data.name+', '+region);
                     $('#country-style').text(country);
                     $('#weather-description').text(data.weather[0].description);
